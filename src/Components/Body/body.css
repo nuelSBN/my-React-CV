@@ -1,0 +1,48 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.topContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 50vh;
+}
+
+@media screen and (max-width: 800px) {
+  .detailsContainer {
+    display: block;
+  }
+  .topContainer {
+    display: block;
+    padding: 5px;
+  }
+  .secondContainer {
+    display: block;
+    padding: 5px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+  }
+  .chartContainer {
+    display: block;
+    width: 100%;
+    height: 30vh;
+  }
+}

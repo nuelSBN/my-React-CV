@@ -1,0 +1,42 @@
+header {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d6efd;
+  color: #fff;
+  text-transform: uppercase;
+}
+.fullname {
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.occupation {
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+.heading {
+  letter-spacing: 3px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    height: 80px;
+    width: 100%;
+  }
+  .fullname {
+    font-size: 13px;
+  }
+  .occupation {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  .heading {
+    font-size: 11px;
+  }
+}

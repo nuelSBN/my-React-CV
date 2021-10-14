@@ -1,0 +1,15 @@
+.skills {
+  display: block;
+}
+.skills h4 {
+  font-size: 1.2rem;
+}
+.skillsContainer {
+  font-size: 13px;
+  width: 100%;
+  line-height: 30px;
+  display: block;
+}
+.skillsContainer li {
+  list-style: none;
+}

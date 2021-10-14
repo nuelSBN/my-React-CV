@@ -1,0 +1,46 @@
+.professionalSummary {
+  margin-top: 10px;
+  width: 100%;
+  padding: 20px;
+}
+.topSummary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topSummary h4 {
+  font-size: 1.5rem;
+}
+.summary {
+  margin-top: 10px;
+  line-height: 35px;
+  width: 80%;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 800px) {
+  .professionalSummary {
+    padding: 0;
+  }
+  .topSummary {
+    display: block;
+    /* padding: 5px; */
+  }
+  .topSummary h4 {
+    font-size: 1.1rem;
+  }
+  .summary {
+    margin-top: 10px;
+    line-height: 22px;
+    width: 100%;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+  }
+  .firstSummaryParagraph {
+    margin-top: 10px;
+  }
+  .secondSummaryParagraph {
+    margin-top: 10px;
+  }
+}
